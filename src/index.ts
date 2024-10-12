@@ -7,7 +7,7 @@
 import { getAsyncLifecycle, defineConfigSchema } from '@openmrs/esm-framework';
 import { configSchema } from './config-schema';
 
-const moduleName = '@openmrs/esm-template-app';
+const moduleName = '@openmrs/esm-growthchart-app';
 
 const options = {
   featureName: 'root-world',
@@ -37,7 +37,7 @@ export function startupApp() {
  * will be `openmrsSpaBase() + 'root'`, which is usually
  * `/openmrs/spa/root`.
  */
-export const root = getAsyncLifecycle(() => import('./root.component'), options);
+export const root = getAsyncLifecycle(() => import('./root.growthchart'), options);
 
 /**
  * The following are named exports for the extensions defined in this frontend modules. See the `routes.json` file to see how these are used.

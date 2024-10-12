@@ -18,6 +18,8 @@
     ],
     "resolveJsonModule": true,
     "noEmit": true,
-    "target": "esnext"
+    "target": "esnext",
+     "noImplicitAny": false, // Optional
+    "types": ["node"]  // Make sure chart.js types are included
   }
 }

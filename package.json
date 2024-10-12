@@ -41,7 +41,9 @@
   },
   "dependencies": {
     "@carbon/react": "^1.33.1",
-    "lodash-es": "^4.17.21"
+    "chart.js": "^4.4.4",
+    "lodash-es": "^4.17.21",
+    "react-chartjs-2": "^5.2.0"
   },
   "peerDependencies": {
     "@openmrs/esm-framework": "*",
@@ -52,7 +54,7 @@
     "rxjs": "6.x"
   },
   "devDependencies": {
-    "@openmrs/esm-framework": "next",
+    "@openmrs/esm-framework": "^5.8.1",
     "@openmrs/esm-styleguide": "next",
     "@playwright/test": "^1.42.1",
     "@swc/cli": "^0.3.12",

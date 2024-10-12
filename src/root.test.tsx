@@ -25,7 +25,7 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { useConfig } from '@openmrs/esm-framework';
 import { Config } from './config-schema';
-import Root from './root.component';
+import Root from './root.growthchart';
 
 /**
  * This is an idiomatic way of dealing with mocked files. Note that
@@ -36,7 +36,7 @@ import Root from './root.component';
  */
 const mockUseConfig = useConfig as jest.Mock;
 
-it('renders a landing page for the Template app', () => {
+it('renders a landing page for the growthchart app', () => {
   const config: Config = { casualGreeting: false, whoToGreet: ['World'] };
   mockUseConfig.mockReturnValue(config);
 
