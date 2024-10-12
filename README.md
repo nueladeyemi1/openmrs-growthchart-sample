@@ -1,8 +1,22 @@
-Though it works well with Sample data from Chartjs
+#Though it works well with Sample data from Chartjs
+
 ![alt text](image.png)
 
-But I am running into an error probably because I don't have the docker and other things running here.
+#But I am running into an error probably because I don't have the docker and other things running here.
+
 ![alt text](<Screenshot (88).png>)
+
+#Getting started
+
+```sh
+yarn  # to install dependencies
+
+yarn start  # to run the dev server
+```
+
+Once it is running, a browser window should open with the OpenMRS 3 application. 
+
+Log in and then navigate or change the browser path to `/openmrs/spa/root`.
 
 
 <!-- ![Node.js CI](https://github.com/openmrs/openmrs-esm-template-app/workflows/Node.js%20CI/badge.svg)
