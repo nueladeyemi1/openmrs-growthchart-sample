@@ -1,4 +1,11 @@
-![Node.js CI](https://github.com/openmrs/openmrs-esm-template-app/workflows/Node.js%20CI/badge.svg)
+Though it works well with Sample data from Chartjs
+![alt text](image.png)
+
+But I am running into an error probably because I don't have the docker and other things running here.
+![alt text](<Screenshot (88).png>)
+
+
+<!-- ![Node.js CI](https://github.com/openmrs/openmrs-esm-template-app/workflows/Node.js%20CI/badge.svg)
 
 # OpenMRS ESM Template App
 
@@ -43,4 +50,4 @@ Check out the [Medication dispensing app](https://github.com/openmrs/openmrs-esm
 
 ## Integrating it into your application
 
-Please see [Creating a Frontend Module](https://o3-docs.openmrs.org/docs/recipes/create-a-frontend-module).
+Please see [Creating a Frontend Module](https://o3-docs.openmrs.org/docs/recipes/create-a-frontend-module). -->
